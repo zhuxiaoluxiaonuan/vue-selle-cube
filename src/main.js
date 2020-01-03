@@ -1,6 +1,8 @@
 import Vue from 'vue'
+import './cube-ui'
 import App from './App.vue'
-
+import 'common/stylus/index.styl'
+import './createAPI/createAPI'
 Vue.config.productionTip = false
 
 new Vue({
